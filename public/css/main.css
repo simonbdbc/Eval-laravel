@@ -1,0 +1,114 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 20vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.margin-top {
+    margin-top: 10vh;
+}
+
+ul a form button {
+    font-size: 14px;
+    color: #fff;
+    display: inline;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-flex img, .container-flex h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.card-flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    flex: 1;
+    margin: 10px;
+}
+
+.card-flex a {
+    text-decoration: none;
+    color: black;
+}
+
+.alert-success {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 30px;
+    color: white;
+}
